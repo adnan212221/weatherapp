@@ -22,7 +22,8 @@ const Buttons = ({setquery}) => {
     },
     {
       id: 5,
-      name: 'hyderabad'
+      name: 'hyderabad',
+      class: 'd-none d-sm-block'
     }
   ]
 
@@ -31,7 +32,7 @@ const Buttons = ({setquery}) => {
 
       {
         cities.map((i)=>{
-          return <button className='btn' key={i.id} onClick={()=> setquery({q: i.name})}>{i.name}</button>
+          return <button className={`btn ${i.class}`} key={i.id} onClick={()=> setquery({q: i.name})}>{i.name}</button>
         })
       }
 
