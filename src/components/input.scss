@@ -1,0 +1,57 @@
+.main-input{
+  width: 75%;
+  margin-top: 0.5rem;
+
+  .celfar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    .btn{
+      color: white;
+
+      &:hover{
+        color: black;
+      }
+    }
+    @media (max-width: 575.98px) { 
+      justify-content: end;
+     }
+  }
+}
+
+.inputfield {
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  width: 100%;
+  line-height: 1.75rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    &:focus{
+      outline: none;
+    }
+
+    &::placeholder{
+      text-transform: lowercase;
+    }
+
+}
+
+.iconsalign{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .searchicon{
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+}
+
+.searchicon:hover{
+  color: black;
+}

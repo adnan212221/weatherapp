@@ -1,0 +1,33 @@
+.cloudupdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempupdate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .feelsupdate{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        
+        .feelsupdates{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.cloudet{
+    width: 100%;
+
+    @media (max-width: 575.98px) { 
+        flex-direction: column;
+        align-items: center;
+     }
+}

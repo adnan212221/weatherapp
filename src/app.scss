@@ -1,0 +1,20 @@
+.main-component {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+ width: fit-content;
+  padding-bottom: 1.25rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  background-color: #1d4ed8;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    @media (max-width: 575.98px) {   
+      padding-left: 1rem;
+  padding-right: 1rem;
+     }
+}

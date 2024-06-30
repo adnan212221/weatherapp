@@ -1,0 +1,19 @@
+.main-button {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%  !important;
+
+    .btn{
+        color: white !important;
+        text-transform: capitalize;
+
+        &:hover{
+            color: black !important;
+        }
+    }
+
+}
+
